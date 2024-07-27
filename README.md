@@ -28,18 +28,10 @@ Newman is a command-line collection runner for Postman. It allows you to run and
 ### Installation
 1. Install [Node.js.](https://nodejs.org/en/download/package-manager)
 2. Install Newman globally using npm
-
-   Newman Report
-   ![Screenshot 2024-07-27 222906](https://github.com/user-attachments/assets/8f681823-1b11-480e-a1ce-e9eaa1d87c8a)
-
-
-
-
-
-
 ```bash
   npm run deploy
 ```
-
+Newman Report
+![Screenshot 2024-07-27 222906](https://github.com/user-attachments/assets/8f681823-1b11-480e-a1ce-e9eaa1d87c8a)
 
 
