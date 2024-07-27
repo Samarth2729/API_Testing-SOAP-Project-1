@@ -1,0 +1,487 @@
+{
+	"id": "647dab80-4077-452f-a704-25ac270f978e",
+	"name": "API Testing SOAP Project-1",
+	"timestamp": "2024-07-27T14:59:01.727Z",
+	"collection_id": "37231755-1657303a-beaa-491c-809b-f64a3125ec88",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-27T14:58:54.284Z",
+	"totalFail": 14,
+	"results": [
+		{
+			"id": "60057b9f-d10a-40ac-a926-a735b418625f",
+			"name": "TC1-Positive Testcase",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 453,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				453
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a57e92e6-2413-4757-8d35-6ba42550546d",
+			"name": "TC2-Negative Testcase with invalid character",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 287,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				287
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "b21177a6-ffaf-4d74-ba14-60eea6a105ee",
+			"name": "TC3-Negative Testcase with Negative Number Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 274,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				274
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "c67c7c21-403d-4298-89ac-bda313d97073",
+			"name": "TC4-Negative Testcase with Decimal Number Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 327,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				327
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "610fd9b6-d142-446d-b758-b28a02f53035",
+			"name": "TC5-Negative Testcase with Non-numeric String Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 296,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				296
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "23daeaa8-c46d-4507-a864-84e136a0f47d",
+			"name": "TC6-Negative Testcase with Empty Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				306
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "44b8ab7e-5171-48a4-98f4-a7bdfa1612db",
+			"name": "TC7-Negative Testcase with null value",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 475,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				475
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "19c0db72-91a1-4c55-9452-c71215be7ebd",
+			"name": "TC8-Negative Testcase with Exceeding Maximum Length",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 411,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				411
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "9a31cee5-930d-4bd9-8d58-4ba0a1aeb0ce",
+			"name": "TC9-Negative Testcase with Whitespace Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 452,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				452
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "34de3748-1057-4491-95d8-d0a75703fa01",
+			"name": "TC10-Negative Testcase with Exponential Notation Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 319,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				319
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "f2a182e5-b3bc-4758-859f-0af7013a08cf",
+			"name": "TC11-Negative Testcase with Boolean Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "b295cd2c-b3e4-4e6a-8174-65eb353ca64e",
+			"name": "TC12-Negative Testcase with Array Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 440,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				440
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "d7887a88-2999-47a8-8cd7-dcdd3c86bc83",
+			"name": "TC13-Negative Testcase with object Input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 324,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				324
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "94faeb3b-1a8e-468d-942c-97dc0023db45",
+			"name": "TC14-Negative Testcase with ubinum input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 293,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				293
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "66b37a4f-1a10-4822-9c5b-6f1490295c94",
+			"name": "TC15-Negative Testcase with non integer input",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 497,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				497
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5445,
+	"collection": {
+		"requests": [
+			{
+				"id": "60057b9f-d10a-40ac-a926-a735b418625f",
+				"method": "POST"
+			},
+			{
+				"id": "a57e92e6-2413-4757-8d35-6ba42550546d",
+				"method": "POST"
+			},
+			{
+				"id": "b21177a6-ffaf-4d74-ba14-60eea6a105ee",
+				"method": "POST"
+			},
+			{
+				"id": "c67c7c21-403d-4298-89ac-bda313d97073",
+				"method": "POST"
+			},
+			{
+				"id": "610fd9b6-d142-446d-b758-b28a02f53035",
+				"method": "POST"
+			},
+			{
+				"id": "23daeaa8-c46d-4507-a864-84e136a0f47d",
+				"method": "POST"
+			},
+			{
+				"id": "44b8ab7e-5171-48a4-98f4-a7bdfa1612db",
+				"method": "POST"
+			},
+			{
+				"id": "19c0db72-91a1-4c55-9452-c71215be7ebd",
+				"method": "POST"
+			},
+			{
+				"id": "9a31cee5-930d-4bd9-8d58-4ba0a1aeb0ce",
+				"method": "POST"
+			},
+			{
+				"id": "34de3748-1057-4491-95d8-d0a75703fa01",
+				"method": "POST"
+			},
+			{
+				"id": "f2a182e5-b3bc-4758-859f-0af7013a08cf",
+				"method": "POST"
+			},
+			{
+				"id": "b295cd2c-b3e4-4e6a-8174-65eb353ca64e",
+				"method": "POST"
+			},
+			{
+				"id": "d7887a88-2999-47a8-8cd7-dcdd3c86bc83",
+				"method": "POST"
+			},
+			{
+				"id": "94faeb3b-1a8e-468d-942c-97dc0023db45",
+				"method": "POST"
+			},
+			{
+				"id": "66b37a4f-1a10-4822-9c5b-6f1490295c94",
+				"method": "POST"
+			}
+		]
+	}
+}
